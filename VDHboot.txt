@@ -1,0 +1,24 @@
+Requirements:
+- A computer with enought storage
+- Windows 10 or 8.1 ISO image (You can also use Windows 7 ISO but you can't dualboot with windows 10 or 8.1 on UEFI systems)
+
+1- Install Virtualbox and VirtualBox Extension Pack
+2- run VirtualBox and Create VM:
+    - Give vm name
+    - Select Windows 10 or 8.1
+    - Create minimum 30GB "VDH" Disk for windows 10 (If you need more spacec You can Expand later)
+    - And Install windows (you know how to do it)
+    - Shutdown VM
+3- Open disk disk management (Winkey+X and Select disk management)
+4- action --> Add SSD (or HDD)
+5- Select VDH file (you created while VM setup) clink ok
+6- Check your Windows installed VDH partition letter (example:H)
+7- Open powershell with administrator rights and type: bcdboot H:\windows ("H" is your Windows installed VDH partition letter. Check step 6 again and read carefully fucking asshole)
+8- Reboot & done
+
+- Now you Can select OS druing boot 
+
+How to set Main OS Default Again:
+1- open msconfig (winkey+R type msconfig and enter)
+2- enter Boot tab
+3- Selecet your main OS and click "Set Default"
