@@ -1,8 +1,8 @@
-How to use Gnu/Linux distro under android with chroot or phroot
+How to use Gnu/Linux distro under android with chroot or proot
 
 
 There are two metods:
-Phroot: Rootless method with termux (lol I hate it. ಠ_ಠ ) 
+Proot: Rootless method with termux (lol I hate it. ಠ_ಠ ) 
 Chroot: Better performace & less bugs and no termux needed
 
 First. Check your architecture: uname -m (Terminal command mr.noob)
