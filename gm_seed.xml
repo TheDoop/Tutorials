@@ -1,0 +1,12 @@
+<manifest>
+
+  <remote name="github" fetch="https://github.com" revision="cm-14.1" />
+  
+  <project path="device/seed" name="LineageOS/android_device_google_seed" groups="device" remote="github"/>
+<project path="device/cyanogen/msm8916-common" name="LineageOS/android_device_cyanogen_msm8916-common" groups="device" remote="github"/>
+<project path="kernel/google/seed" name="LineageOS/android_kernel_google_seed" groups="device" remote="github"/>
+<project path="vendor/google" name="TheMuppets/proprietary_vendor_google" groups="device" remote="github"/>
+
+
+
+</manifest>
