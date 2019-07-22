@@ -1,0 +1,44 @@
+Mi A2 Lite Custom Rom kurulum
+Cassandra | daisy
+Gerekenler:
+
+Offain Tarafından hazırlanmış TRWP Veya OFRP
+Custom Rom dosyası
+ForcedEncryptionDisabler - İsteğe bağlı
+Gapps - İsteğe bağlı
+Magisk - İsteğe bağlı
+Gereken dosyaların tamamını /notes yazarak bulabilirsiniz
+Sırasıyla Rom kurlumu
+
+1- fastboot boot twrpdosyaadı.img
+2- TWRP içerisinden: Wipe -> Format Data
+3- "yes" yazın ve enter
+4- Wipe -> Advanced Wipe bölümüne gelin ve tüm bölümleri silin
+5- Reboot bölümüne gidin Slot değiştirin ve tekrar Wipe yapın
+("A" slotunda iseniz "B" slotuna, "B" slotunda iseniz "A" slotuna geçin)
+6- Tekrar Tüm bölümleri "Wipe"(Adım:7) yapın
+7- Install Bölümüne gelin ve Romu kurun
+8- Reboot bölümüne gelin ve diğer slota geçin
+("A" slotunda iseniz "B" slotuna, "B" slotunda iseniz "A" slotuna geçin)
+9- İsteğe bağlı TWRP-installer.zip kurun
+10- Reboot bölümüne gelin ve "Reboot Recovery" seçin
+11- İsteğe bağlı ForcedEncryptionDisabler kurun ve yine isteğe bağlı
+Magisk,Gapps(Google apps),Kernel vb. kurun
+(ForcedEncryptionDisabler Hakkında daha fazla bilgi için sık sorulan sorular bölümüne bakın)
+12- Yeniden başlatın 
+13- Açılış logosunda kalırsa tekrar TWRP açın ve bir diğer slota geçin
+Sık sorulan sorular
+Soru: ForcedEncryptionDisabler Nedir gerekli midir?
+Cevap: Cihazın kendini(/data bölümündeki verileri) zorla şifrelemesini kapatmak içindir. Şifreleme A2 lite gibi giriş seviyesi cihazlarda performansa olumsuz etki eder. Kapatmak Güvenliği zayıflatır fakat OEM kilidi açık olduğu için Ortada zaten güvenlik diye bir şey yoktur. Aynı Zamanda EMMC performansını düşürür.
+
+Soru: TWRP kalıcı yüklemek gerekir mi?
+Cevap: Hayır gerekmez tüm işlemleri boot ederek yapabilirsiniz. Çoğu kişi Her seferinde PC kullanmamak için Kalıcı yüklemeyi tercih ediyor
+
+Soru: Gapps nedir Gerekli midir?
+Cevap: Gapps Uzun adıyla Google Apps (Google Uygulamaları) paketidir. Gerekli değildir fakat Bazı Uygulamalar Google Play hizmetleri olmadan Çalışmaz. Sonradan kurulabilir.
+
+Soru: Magisk Nedir Gerekli midir?
+Cevap: Magisk modern "root" çözümüdür Super su ve CMsu aksine "/data" bölümüne kurulur ve "/system" bölümüne müdahale etmez ve Cihaz "Safetynet"  testiden başarıyla geçer. Root kullanılacaksa Kesinlikle magisk 19.03[Güncel] sürümü kullanılması önerilir.
+
+Son Güncelleme 07.22.2019
+
